@@ -1,0 +1,12 @@
+Package: DirLapl
+Title: Posterior Computation for Dirichlet-Laplace Prior
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Paolo", "Onorati", role=c("aut","cre"), email = "paolo.onorati@unipd.it"),
+      person("Antonio", "Canale", role="aut"), person("David Brian", "Dunson", role="aut"))
+Description: Posterior Computation for Dirichlet-Laplace Prior
+License: GPL-3
+Imports: GIGrvg, statmod, truncnorm, BayesLogit, glmnet
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
