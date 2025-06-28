@@ -27,7 +27,7 @@
 #'   \psi_i \overset{i.i.d.}{\sim} \exp(1 / 2)
 #'  }
 #' For the Gibbs sampler, it is used the first representation.
-# See Onorati et al (2025) for more details.
+#' See Onorati et al (2025) for more details.
 #' 
 #' \code{start}: the starting point is generated in the following way:
 #' \itemize{
@@ -49,14 +49,14 @@
 #'   are reported.
 #' }
 
-# @references
-# Bhattacharya, A., Pati, D., Pillai, N. S., & Dunson, D. B. (2015).
-#  Dirichlet–Laplace priors for optimal shrinkage. Journal of the American
-#  Statistical Association, 110(512), 1479-1490.
-#
-# Onorati, P., Canale, A., & Dunson, D.B. (2025). On the Posterior
-#  Computation Under the Dirichlet-Laplace Prior. arXiv preprint
-#  arXiv:xxxx.xxxxx.
+#' @references
+#' Bhattacharya, A., Pati, D., Pillai, N. S., & Dunson, D. B. (2015).
+#'  Dirichlet–Laplace priors for optimal shrinkage. Journal of the American
+#'  Statistical Association, 110(512), 1479-1490.
+#'
+#' Onorati, P., Canale, A., & Dunson, D.B. (2025). On the Posterior
+#'  Computation Under the Dirichlet-Laplace Prior. arXiv preprint
+#'  arXiv:xxxx.xxxxx.
 
 #' @param nsim The number of simulations.
 #' @param X The design matrix.

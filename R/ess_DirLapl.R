@@ -27,7 +27,7 @@
 #' For the update of \eqn{p(\theta \vert y, \delta, \psi) \propto L(y; \theta)
 #' N(\theta, 0, \delta^2 \psi)}, it is used the elliptical slice sampling
 #' (Murray et al, 2010).
-# See Onorati et al (2025) for the update of \eqn{delta, \psi}.
+#' See Onorati et al (2025) for the update of \eqn{\delta} and \eqn{\psi}.
 #' 
 #' \code{start}: the starting point must be provided. It must be a numeric
 #'  vector
@@ -46,17 +46,18 @@
 #'   are reported.
 #' }
 
-# @references Bhattacharya, A., Pati, D., Pillai, N. S., & Dunson, D. B. (2015).
-# Dirichlet–Laplace priors for optimal shrinkage. Journal of the American
-#  Statistical Association, 110(512), 1479-1490.
-#
-# Murray, I., Adams, R., & MacKay, D. (2010, March). Elliptical slice sampling.
-# In Proceedings of the thirteenth international conference on artificial
-# intelligence and statistics (pp. 541-548). JMLR Workshop and Conference
-# Proceedings.
-#
-# Onorati, P., Canale, A., & Dunson, D.B. (2025). On the Posterior Computation
-#  Under the Dirichlet-Laplace Prior. arXiv preprint arXiv:xxxx.xxxxx.
+#' @references
+#' Bhattacharya, A., Pati, D., Pillai, N. S., & Dunson, D. B. (2015).
+#'  Dirichlet–Laplace priors for optimal shrinkage. Journal of the American
+#'  Statistical Association, 110(512), 1479-1490.
+#'
+#' Murray, I., Adams, R., & MacKay, D. (2010, March). Elliptical slice sampling.
+#'  In Proceedings of the thirteenth international conference on artificial
+#'  intelligence and statistics (pp. 541-548). JMLR Workshop and Conference
+#'  Proceedings.
+#'
+#' Onorati, P., Canale, A., & Dunson, D.B. (2025). On the Posterior Computation
+#'  Under the Dirichlet-Laplace Prior. arXiv preprint arXiv:xxxx.xxxxx.
 
 #' @param nsim The number of simulations.
 #' @param logL The loglikelihood function.
